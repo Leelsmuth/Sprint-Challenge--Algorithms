@@ -5,7 +5,7 @@
 a) O(n) - the number of operations increases linearly with the input size (n) due to the While loop.
 
 
-b) O(nlogn) - the outer loop is O(n) and the nested loop is (log n) since j *= 2 is processing chunks of elements at a time, making the entire algorithm O(nlogn)
+b) O(n^2) - the outer loop is O(n) and the nested loop is O(n). Multiplying both together gives us O(n^2)
 
 
 c) O(n) - Each time you make a recursive call has the runtime complexity of n. The base case is O(1) and the recursive case is O(n) since it makes one recursive call, which can all be simplified to O(n)
